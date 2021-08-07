@@ -1,11 +1,13 @@
 import React from 'react';
 import './NavBarStyles.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FiChevronLeft, FiPower } from 'react-icons/fi';
 
 function NavBarComponent() {
   return (
     <div className='navbar'>
+      <FiChevronLeft />
       <p>STATIONS</p>
+      <FiPower />
     </div>
   );
 }

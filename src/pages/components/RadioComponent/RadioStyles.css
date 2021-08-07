@@ -1,13 +1,16 @@
 .flex-container {
-  height: 80vh;
+  height: auto;
   width: 450px;
   margin: 4rem auto 1rem;
   padding: 1rem 1rem;
   background-color: #cafff3;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  font-size: 1.2rem;
   overflow-y: scroll;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -33,7 +36,7 @@
 .radio-items-container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0.2rem 1rem;
   align-content: center;
   align-items: center;
   cursor: pointer;
