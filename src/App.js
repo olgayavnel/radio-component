@@ -1,9 +1,15 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import RadioComponent from './pages/components/RadioComponent/RadioComponent';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [data, setData] = useState(null);
+
+  useEffect(() => {
+    Aos.init({});
+  }, []);
 
   useEffect(() => {
     fetch('https://teclead.de/recruiting/radios')

@@ -5,7 +5,12 @@ import './RadioStyles.css';
 
 function RadioComponent({ data }) {
   return (
-    <div className='flex-container'>
+    <div
+      className='flex-container'
+      data-aos='zoom-in'
+      data-aos-duration='500'
+      data-aos-once='true'
+    >
       <NavBarComponent />
 
       {data.radios.map((item, index) => (

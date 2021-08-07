@@ -10,6 +10,7 @@
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 1.2rem;
+  color: #1e342e;
   letter-spacing: 0.1rem;
 }
 
@@ -67,7 +68,7 @@
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
-  transition: all 0.3s;
+  transition: 0.3s ease;
 }
 
 .inner-container.expanded {
@@ -87,7 +88,7 @@
   height: 200px;
   border-radius: 50%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  transition: linear 0.1s;
+  transition: 0.1s linear;
 }
 
 .image:hover {
