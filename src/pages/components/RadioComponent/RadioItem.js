@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import RadioComponentItemInnerContent from './RadioComponentItemInnerContent';
+import RadioItemContent from './RadioItemContent';
 import './RadioStyles.css';
 
-function RadioComponentItemContent({ name, frequency, image }) {
+function RadioItem({ name, frequency, image }) {
   const [expanded, setExpanded] = useState(false);
   const handleClick = () => {
     console.log('click happened!');
@@ -20,10 +20,10 @@ function RadioComponentItemContent({ name, frequency, image }) {
           expanded ? 'inner-container expanded' : 'inner-container collapsed'
         }
       >
-        <RadioComponentItemInnerContent image={image} />
+        <RadioItemContent image={image} />
       </div>
     </div>
   );
 }
 
-export default RadioComponentItemContent;
+export default RadioItem;

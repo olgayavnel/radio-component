@@ -2,7 +2,7 @@ import React from 'react';
 import './RadioStyles.css';
 import { FiMinus, FiPlus } from 'react-icons/fi';
 
-function RadioComponentItemInnerContent({ image }) {
+function RadioItemContent({ image }) {
   return (
     <>
       <FiMinus className='icon-button left' />
@@ -12,4 +12,4 @@ function RadioComponentItemInnerContent({ image }) {
   );
 }
 
-export default RadioComponentItemInnerContent;
+export default RadioItemContent;

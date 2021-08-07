@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBarComponent from '../NavBarComponent/NavBarComponent';
-import RadioComponentItemContent from './RadioComponentItemContent';
+import RadioItem from './RadioItem';
 import './RadioStyles.css';
 
 function RadioComponent({ data }) {
@@ -14,7 +14,7 @@ function RadioComponent({ data }) {
       <NavBarComponent />
 
       {data.radios.map((item, index) => (
-        <RadioComponentItemContent
+        <RadioItem
           key={index}
           name={item.name}
           frequency={item.frequency}
