@@ -6,3 +6,9 @@
   padding: 1rem;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 520px) {
+  .navbar {
+    font-size: 1.3rem;
+  }
+}
