@@ -5,9 +5,9 @@ import { FiChevronLeft, FiPower } from 'react-icons/fi';
 function NavBarComponent() {
   return (
     <div className='navbar'>
-      <FiChevronLeft />
+      <FiChevronLeft className='icon-button left' />
       <p>STATIONS</p>
-      <FiPower />
+      <FiPower className='icon-button right' />
     </div>
   );
 }

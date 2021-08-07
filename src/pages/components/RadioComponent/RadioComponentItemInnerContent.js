@@ -1,12 +1,13 @@
 import React from 'react';
 import './RadioStyles.css';
+import { FiMinus, FiPlus } from 'react-icons/fi';
 
 function RadioComponentItemInnerContent({ image }) {
   return (
     <>
-      <p>-</p>
+      <FiMinus className='icon-button left' />
       <img src={image} className='image' alt='img' />
-      <p>+</p>
+      <FiPlus className='icon-button right' />
     </>
   );
 }
